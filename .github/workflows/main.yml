@@ -34,5 +34,5 @@ jobs:
             - name: Deploy to App Service
               uses: azure/webapps-deploy@v2
               with:
-                  app_name: ${{ env.AZURE_WEBAPP_NAME }}
+                  app-name: ${{ env.AZURE_WEBAPP_NAME }}
                   package: '${{ env.AZURE_WEBAPP_PATH }}/myapp'
